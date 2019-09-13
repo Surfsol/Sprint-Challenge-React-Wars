@@ -10,7 +10,7 @@ function Starship() {
     useEffect(() => {
     axios
         .get(`
-        https://swapi.co/api/starships/${num}/`) //add KEY
+        https://swapi.co/api/starships/9/`) //add KEY
         .then(response => {
             console.log(`response`, response)
             let ship = response.data;
